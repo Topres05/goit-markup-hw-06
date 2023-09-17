@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
@@ -14,6 +13,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
+    <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -37,6 +37,12 @@
           </ul>
         </nav>
 
+        <button class="open-mobile-menu-btn">
+          <svg class="open-mobile-menu-icon" width="24" height="24" aria-label="mobile menu open icon">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
+
         <address class="contacts">
           <ul class="main-contacts list">
             <li class="contacts-item">
@@ -55,14 +61,14 @@
     </header>
     <main>
       <!-- HERO SECTION -->
-      <section class="hero">
+      <!-- <section class="hero">
         <div class="container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
           <button class="order-service-btn" type="button">Order Service</button>
         </div>
-      </section>
+      </section> -->
       <!-- OUR QUALITY SECTION -->
-      <section class="our-quality">
+      <!-- <section class="our-quality">
         <div class="container">
           <h2 class="section-title visually-hidden">Features</h2>
           <ul class="our-quality-list list">
@@ -116,10 +122,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!--OUR TEAM SECTION -->
-      <section class="our-team">
+      <!-- <section class="our-team">
         <div class="container">
           <h2 class="our-team-section-title">Our Team</h2>
           <ul class="our-team-list list">
@@ -377,10 +383,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- OUR PORTFOLIO SECTION -->
-      <section class="our-portfolio">
+      <!-- <section class="our-portfolio">
         <div class="container">
           <h2 class="our-portfolio-section-title">Our Portfolio</h2>
           <ul class="our-portfolio-list list">
@@ -507,10 +513,10 @@
           </ul>
         </div>
       </section>
-    </main>
+    </main> -->
 
     <!-- PAGE FOOTER -->
-    <footer class="page-footer">
+    <!-- <footer class="page-footer">
       <div class="container container-footer">
         <div class="cotainer-webstudio">
           <a class="footer-logotype link" href="./index.html"
@@ -599,10 +605,10 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
     <!--BACKDROP WITH MODAL WINDOW-->
-    <div class="backdrop is-open">
+    <!-- <div class="backdrop">
       <div class="modal">
         <button type="button" class="close-btn">
           <svg
@@ -724,6 +730,98 @@
           <button class="review-form-submit" type="submit">Send</button>
         </form>
       </div>
-    </div>
+    </div> -->
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu">
+  <button class="mobile-menu-close-btn">
+     <svg class="mobile-menu-close-icon" width="8" height="8" aria-label="mobile menu close icone">
+       <use href="./images/icons.svg#icon-close"></use>
+     </svg>
+  </button>
+
+  <nav class="mobile-menu-page-nav"></nav>
+     <ul class="mobile-menu-menu list">
+            <li class="mobile-menu-menu-item">
+              <a class="mobile-menu-menu-link link current" href="./index.html">Studio</a>
+            </li>
+            <li class="mobile-menu-menu-item">
+              <a class="mobile-menu-menu-link link" href="">Portfolio</a>
+            </li>
+            <li class="mobile-menu-menu-item">
+              <a class="mobile-menu-menu-link link" href="">Contacts</a>
+            </li>
+     </ul>
+  </nav>
+
+        <address class="mobile-menu-contacts">
+          <ul class="mobile-menu-main-contacts list">
+            <li class="mobile-menu-contacts-item">
+              <a class="mobile-menu-contacts-list link current-tel" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="mobile-menu-contacts-item">
+              <a class="mobile-menu-contacts-list link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+
+    <div class="mobile-menu-cotainer-social-media">
+          <ul class="mobile-menu-social-list list">
+            <li class="mobile-menu-social-list-item">
+              <a class="mobile-menu-social-list-link" href="">
+                <svg
+                  class="mobile-menu-social-list-icon"
+                  width="24"
+                  height="24"
+                  aria-label="instagram icon"
+                >
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-menu-social-list-item">
+              <a class="mobile-menu-social-list-link" href="">
+                <svg
+                  class="mobile-menu-social-list-icon"
+                  width="24"
+                  height="24"
+                  aria-label="twitter icon"
+                >
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-menu-social-list-item">
+              <a class="mobile-menu-social-list-link" href="">
+                <svg
+                  class="mobile-menu-social-list-icon"
+                  width="24"
+                  height="24"
+                  aria-label="facebook icon"
+                >
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-menu-social-list-item">
+              <a class="mobile-menu-social-list-link" href="">
+                <svg
+                  class="mobile-menu-social-list-icon"
+                  width="24"
+                  height="24"
+                  aria-label="linkedin icon"
+                >
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+</div>
   </body>
 </html>
