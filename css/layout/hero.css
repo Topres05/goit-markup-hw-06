@@ -1,0 +1,161 @@
+@media screen and (max-width: 768px){
+
+.hero {
+        background: #2E2F42;
+        text-align: center;
+        max-width: 320px;
+        height: 432px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url("/images/hero/mobile/background-mobile.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0 auto;
+}
+
+.main-title {
+    display: flex;
+    font-family: Roboto;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    max-width: 222px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #FFF;
+}
+
+.order-service-btn {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background: #4D5AE5;
+    color: #FFF;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.order-service-btn:hover,
+.order-service-btn:focus {
+    background: #404BBF;
+
+}
+
+}
+
+@media screen and (min-width: 768px) {
+
+.hero {
+    background: #2E2F42;
+    text-align: center;
+    max-width: 768px;
+    height: 436px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url("/images/hero/tab/background-tab.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.main-title {
+    display: flex;
+    padding-top: 112px;
+    padding-bottom: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 496px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #FFF;
+    text-align: center;
+}
+
+.order-service-btn {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background: #4D5AE5;
+    color: #FFF;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.order-service-btn:hover,
+.order-service-btn:focus {
+    background: #404BBF;
+}
+
+}
+
+@media screen and (min-width: 1158px) {
+
+.hero {
+    background: #2E2F42;
+    text-align: center;
+    padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url("/images/hero/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+.main-title {
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 496px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #FFF;
+    text-align: center;
+}
+
+.order-service-btn {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background: #4D5AE5;
+    color: #FFF;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.order-service-btn:hover,
+.order-service-btn:focus {
+    background: #404BBF;
+}
+
+}
