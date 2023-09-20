@@ -5,21 +5,18 @@
 
 @media screen and (min-width: 320px) {
     .container {
-        width: 288px;
         margin-left: auto;
         margin-right: auto;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        width: 736px;
-    }
+    
 }
 
 @media screen and (min-width: 1158px) {
     .container {
-    width: 1158px;
+    max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     }
