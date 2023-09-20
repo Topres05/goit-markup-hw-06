@@ -94,12 +94,12 @@
 @media screen and (min-width: 768px) {
 
     .container2 {
-        padding: 0;
+        width: 584px;
     }
 
     .our-team {
-        max-width: 100%;
-        padding: 96px 108px 96px 108px;
+        padding-top: 96px;
+        padding-bottom: 96px;
         background-color: #F4F4FD;
     }
 
@@ -187,8 +187,13 @@
 
 @media screen and (min-width: 1158px) {
 
+.container2 {
+        width: 1158px;
+    }
+
 .our-team {
-    padding: 120px 156px 120px 156px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     background-color: #F4F4FD;
 }
 
