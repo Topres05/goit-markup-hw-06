@@ -8,16 +8,17 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+        padding-top: 72px;
+        padding-bottom: 72px;
         margin: 0 auto;
 }
 
 .main-title {
     display: flex;
     font-family: Roboto;
-    padding-top: 72px;
-    padding-bottom: 72px;
     margin-left: 16px;
     margin-right: 16px;
+    margin-bottom: 72px;
     max-width: 222px;
     font-size: 36px;
     font-weight: 700;
@@ -78,6 +79,8 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 320px) {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding-top: 112px;
+    padding-bottom: 112px;
     margin: 0 auto;
 }
 
@@ -85,6 +88,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 320px) {
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 36px;
     max-width: 496px;
     font-size: 56px;
     font-weight: 700;
@@ -142,6 +146,8 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding-top: 188px;
+    padding-bottom: 188px;
     margin: 0 auto;
 }
 
@@ -150,6 +156,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
     margin-bottom: 48px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 48px;
     max-width: 496px;
     font-size: 56px;
     font-weight: 700;

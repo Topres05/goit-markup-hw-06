@@ -203,6 +203,12 @@
         border-bottom: 1px solid #e7e9fc
     }
 
+    .page-header-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
     .menu {
         display: flex;
         gap: 40px;
@@ -275,12 +281,11 @@
         .contacts {
             display: flex;
             font-style: normal;
+            margin-left: auto;
             gap: 12px;
         }
 
-        .main-contacts {
-            margin-left: auto;
-        }
+
 
         .contacts-list {
             font-size: 12px;
