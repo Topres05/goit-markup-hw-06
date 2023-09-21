@@ -4,7 +4,6 @@
         background: #2E2F42;
         text-align: center;
         max-width: 320px;
-        height: 432px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url("../../images/hero/mobile/background-mobile.jpg");
         background-repeat: no-repeat;
         background-position: center;
@@ -136,14 +135,13 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 @media screen and (min-width: 1158px) {
 
 .hero {
+    max-width: 1440px;
     background: #2E2F42;
     text-align: center;
-    padding: 188px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url("../../images/hero/desktop/background.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    max-width: 1440px;
     margin: 0 auto;
 }
 
