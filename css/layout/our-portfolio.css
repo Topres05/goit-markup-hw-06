@@ -39,6 +39,11 @@
         margin-bottom: 72px;
     }
 
+    .our-portfolio-img{
+        max-width: 100%;
+        height: auto;
+    }
+
 
 
     .our-portfolio-list-title {
@@ -101,6 +106,11 @@
         text-transform: capitalize;
         color: #2E2F42;
         margin-bottom: 72px;
+    }
+
+    .our-portfolio-img {
+        max-width: 100%;
+        height: auto;
     }
 
 
