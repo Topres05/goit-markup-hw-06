@@ -5,8 +5,11 @@
     }
 
     .our-quality {
+        display: flex;
         padding-top: 96px;
         padding-bottom: 96px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .our-quality-list {
@@ -49,8 +52,7 @@
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        margin-left: auto;
-        margin-right: auto;
+
     }
 
 }

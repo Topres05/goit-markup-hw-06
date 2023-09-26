@@ -14,6 +14,8 @@
       max-width: 320px;
       display: flex;
       flex-direction: column;
+      margin-left: auto;
+      margin-right: auto;
       gap: 72px;
     }
 
@@ -98,6 +100,7 @@
     }
 
     .our-team {
+        display: flex;
         padding-top: 96px;
         padding-bottom: 96px;
         background-color: #F4F4FD;
