@@ -2,6 +2,9 @@
 
     .container2{
         padding: 0;
+        max-width: 296px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .our-team {
@@ -10,12 +13,15 @@
         background-color: #F4F4FD;
     }
 
+    .our-team-img{
+        display: block;
+        max-width: 100%;
+    }
+
     .our-team-list {
       display: flex;
       flex-direction: column;
-      max-width: 296px;
-      margin-left: auto;
-      margin-right: auto;
+      align-items: center;
       gap: 72px;
     }
 
