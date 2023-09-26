@@ -11,9 +11,9 @@
     }
 
     .our-team-list {
-      max-width: 320px;
       display: flex;
       flex-direction: column;
+      max-width: 296px;
       margin-left: auto;
       margin-right: auto;
       gap: 72px;
